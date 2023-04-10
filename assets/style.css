@@ -71,6 +71,14 @@ body {
 	width: 100%;
 
 }
+.picture :left {
+	width: 400px;
+	height: 400px;
+}
+.picture :right {
+	width: 400px;
+	height: 400px;
+}
 #about-me {
 	flex: 2
 }
@@ -127,6 +135,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
